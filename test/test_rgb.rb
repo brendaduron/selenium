@@ -1,6 +1,5 @@
 #!/bin/env ruby
 # encoding: utf-8
-
 require "json"
 require "selenium-webdriver"
 gem "test-unit"
