@@ -2,5 +2,10 @@ language: ruby
 rvm:
   - "1.9.3"
  
+ before_install:
+  - gem update # optional, update all gems
+  - gem install selenium-webdriver
+  - gem install test-unit
+ 
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
