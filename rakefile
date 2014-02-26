@@ -1,5 +1,5 @@
 task :default => [:test]
 
 task :test do
-ruby "cimat.rb"
+ruby "test_rgb.rb"
 end
